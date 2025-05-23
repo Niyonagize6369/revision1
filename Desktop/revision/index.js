@@ -50,7 +50,21 @@ console.log(person.name)
  console.log(selectColor);
  console.log(selectColor.length)
 
-//  functions 
+//  functions (performing a task)
+
+function dudu(name, lastName) {
+    console.log('hello' + name + '' + lastName);
+
+}
+dudu('john,smith');
+dudu('mary');
+
+// function (calculate a value)
+function square(number){
+    return number*number;
+}
+let number =square(2)
+console.log(number);
 
 
 
